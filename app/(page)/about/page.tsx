@@ -315,7 +315,7 @@ export default function AboutPage() {
             className="relative min-h-[320px] sm:min-h-[440px]"
           >
             <Image
-              src="/Images/Property4.jpeg"
+              src="/Images/property4.jpeg"
               alt="Natural landscape reflecting a long-term commitment to place and stewardship"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

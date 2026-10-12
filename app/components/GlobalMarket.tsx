@@ -26,7 +26,7 @@ const markets = [
     name: "Scotland",
     description: "Distinctive estates. A sense of place.",
     image:
-      "/Images/Property4.jpeg",
+      "/Images/property4.jpeg",
   },
 ];
 

@@ -118,7 +118,7 @@ const markets = [
     name: "Scotland",
     text: "Distinctive homes, countryside retreats and lifestyle estates.",
     image:
-      "/Images/Property4.jpeg"
+      "/Images/property4.jpeg"
   },
 ];
 

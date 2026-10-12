@@ -55,7 +55,7 @@ const markets = [
     description:
       "Across Edinburgh and the Highlands, we consider provenance, stewardship, landscape and long-term ownership alongside the character of each estate.",
     image:
-      "/Images/Property4.jpeg",
+      "/Images/property4.jpeg",
     alt: "Historic stone estate beside a Scottish Highland loch",
     locations: ["Edinburgh", "Highland Estates", "Lochside Homes", "Rural Retreats"],
   },
