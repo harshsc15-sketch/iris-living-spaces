@@ -4,6 +4,10 @@ import { motion, type Variants } from "framer-motion";
 function Hero({ stagger, reveal }: { stagger: Variants, reveal: Variants }) {
   return (
     <section className="relative flex min-h-[100svh] w-full items-center overflow-hidden bg-[#474a40] text-white">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('https://images.pexels.com/videos/39576506/architecture-beach-exterior-home-39576506.jpeg?auto=compress&w=1260&h=750&dpr=2')" }}
+      />
       <video
         autoPlay
         muted
@@ -14,7 +18,7 @@ function Hero({ stagger, reveal }: { stagger: Variants, reveal: Variants }) {
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover"
       >
-        <source src="/Images/Hero.mp4" type="video/mp4" />
+        <source src="https://www.pexels.com/download/video/39576506/" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-linear-to-r from-[#171c17]/75 via-[#171c17]/40 to-[#171c17]/10" />
       <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-black/10" />
