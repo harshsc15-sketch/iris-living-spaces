@@ -13,7 +13,7 @@ function Hero({ stagger, reveal }: { stagger: Variants, reveal: Variants }) {
         muted
         loop
         playsInline
-        preload="none"
+        preload="metadata"
         poster="/images/hero-poster.jpg"
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover"
