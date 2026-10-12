@@ -26,6 +26,7 @@ function Hero({ stagger, reveal }: { stagger: Variants, reveal: Variants }) {
         className="relative z-10 mx-auto w-full max-w-[1600px] px-6 py-32 sm:px-10 md:px-16 xl:px-24"
       >
         <motion.div variants={reveal}>
+          
           <span className="text-[9px] tracking-[0.25em] text-white/85 sm:text-[14px]">
             REAL ESTATE · REIMAGINED
           </span>
