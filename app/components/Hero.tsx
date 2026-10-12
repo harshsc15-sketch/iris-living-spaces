@@ -10,7 +10,7 @@ function Hero({ stagger, reveal }: { stagger: Variants, reveal: Variants }) {
         loop
         playsInline
         preload="metadata"
-        poster="/images/hero-poster.jpg"
+        poster="/images/hero-poster.png"
         className="absolute inset-0 h-full w-full object-cover"
       >
 
