@@ -14,7 +14,7 @@ function Hero({ stagger, reveal }: { stagger: Variants, reveal: Variants }) {
         className="absolute inset-0 h-full w-full object-cover"
       >
 
-        <source src="/images/Hero.mp4" type="video/mp4" />
+        <source src="/Images/Hero.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-linear-to-r from-[#171c17]/75 via-[#171c17]/40 to-[#171c17]/10" />
       <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-black/10" />
